@@ -1,0 +1,59 @@
+{
+  "item.tekibas.pink_garnet": "Pink Garnet",
+  "item.tekibas.raw_pink_garnet": "Raw Pink Garnet",
+
+  "item.tekibas.cauliflower": "Cauliflower",
+  "item.tekibas.peat_brick": "Peat Brick",
+
+  "item.tekibas.pink_garnet_sword": "Pink Garnet Sword",
+  "item.tekibas.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.tekibas.pink_garnet_axe": "Pink Garnet Axe",
+  "item.tekibas.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.tekibas.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.tekibas.pink_garnet_paxel": "Pink Garnet Paxel",
+
+  "item.tekibas.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.tekibas.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.tekibas.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.tekibas.pink_garnet_boots": "Pink Garnet Boots",
+
+  "item.tekibas.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+
+  "item.tekibas.data_tablet": "Data Tablet",
+
+  "item.tekibas.weather_tablet": "Weather Tablet",
+  "tooltip.weather_tablet_sunny": "It's quite §6Sunny §rout here!",
+  "tooltip.weather_tablet_rainy": "It do be §9Raining §rheavily!",
+  "tooltip.weather_tablet_thundering": "It's §3Thundering §rthunder!",
+
+  "item.tekibas.metal_detector": "Metal Detector",
+  "tooltip.metal_detector_shift": "Hold §7[§3SHIFT§7] §r to see usage",
+  "tooltip.metal_detector_1": "§aRight-Click §rto detect §2Valuables",
+
+  "item.tekibas.cmiuc": "Catch Me If You Can",
+
+  "itemGroup.pink_garnet_group": "Pink Garnet",
+  "itemGroup.other_things_group": "Other Things",
+
+  "block.tekibas.pink_garnet_block": "Block of Pink Garnet",
+  "block.tekibas.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "block.tekibas.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tekibas.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+  "block.tekibas.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
+  "block.tekibas.end_stone_pink_garnet_ore": "Endstone Pink Garnet Ore",
+
+  "block.tekibas.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.tekibas.pink_garnet_slab": "Pink Garnet Slab",
+  "block.tekibas.pink_garnet_button": "Pink Garnet Button",
+  "block.tekibas.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.tekibas.pink_garnet_fence": "Pink Garnet Fence",
+  "block.tekibas.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.tekibas.pink_garnet_wall": "Pink Garnet Wall",
+  "block.tekibas.pink_garnet_door": "Pink Garnet Door",
+  "block.tekibas.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+
+  "block.tekibas.pink_garnet_lamp_block": "Pink Garnet Lamp Block",
+
+  "enchantment.tekibas.lightning_striker": "Lightning Striker"
+}

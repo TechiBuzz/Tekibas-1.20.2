@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tekibas:pink_garnet_ore",
+    "tekibas:deepslate_pink_garnet_ore",
+    "#minecraft:coal_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:diamond_ores"
+  ]
+}

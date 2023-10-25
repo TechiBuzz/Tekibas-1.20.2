@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tekibas:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tekibas:on": 1
+      },
+      "model": "tekibas:item/data_tablet_on"
+    }
+  ]
+}

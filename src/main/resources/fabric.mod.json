@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tekibas",
+	"version": "${version}",
+	"name": "Tekibas",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tekibas/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.techibuzz.Tekibas"
+		],
+		"fabric-datagen": [
+			"net.techibuzz.TekibasDataGenerator"
+		],
+		"client": [
+			"net.techibuzz.TekibasClient"
+		]
+	},
+	"mixins": [
+		"tekibas.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

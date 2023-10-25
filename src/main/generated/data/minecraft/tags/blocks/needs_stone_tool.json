@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tekibas:pink_garnet_block",
+    "tekibas:raw_pink_garnet_block",
+    "tekibas:pink_garnet_stairs",
+    "tekibas:pink_garnet_slab",
+    "tekibas:pink_garnet_pressure_plate",
+    "tekibas:pink_garnet_fence",
+    "tekibas:pink_garnet_fence_gate",
+    "tekibas:pink_garnet_wall",
+    "tekibas:pink_garnet_door",
+    "tekibas:pink_garnet_trapdoor"
+  ]
+}

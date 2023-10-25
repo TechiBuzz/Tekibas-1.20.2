@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tekibas:block/pink_garnet_slab"
+    },
+    "type=double": {
+      "model": "tekibas:block/pink_garnet_block"
+    },
+    "type=top": {
+      "model": "tekibas:block/pink_garnet_slab_top"
+    }
+  }
+}

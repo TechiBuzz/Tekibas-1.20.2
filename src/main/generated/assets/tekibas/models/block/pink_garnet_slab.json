@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tekibas:block/pink_garnet_block",
+    "side": "tekibas:block/pink_garnet_block",
+    "top": "tekibas:block/pink_garnet_block"
+  }
+}

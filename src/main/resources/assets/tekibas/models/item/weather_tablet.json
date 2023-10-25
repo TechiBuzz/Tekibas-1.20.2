@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tekibas:item/weather_tablet_sunny"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tekibas:rainy": 1
+      },
+      "model": "tekibas:item/weather_tablet_rainy"
+    },
+    {
+      "predicate": {
+        "tekibas:thunder": 1
+      },
+      "model": "tekibas:item/weather_tablet_thunder"
+    }
+  ]
+}

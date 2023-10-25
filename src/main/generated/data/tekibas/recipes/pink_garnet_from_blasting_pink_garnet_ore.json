@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "raw_pink_garnet",
+  "ingredient": {
+    "item": "tekibas:pink_garnet_ore"
+  },
+  "result": "tekibas:pink_garnet"
+}
