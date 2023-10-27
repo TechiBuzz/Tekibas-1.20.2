@@ -13,8 +13,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.techibuzz.Tekibas;
 import net.techibuzz.block.custom.CauliflowerCropBlock;
+import net.techibuzz.block.custom.GemEmpoweringStationBlock;
 import net.techibuzz.block.custom.PinkGarnetLampBlock;
 import net.techibuzz.block.custom.WeatherBlock;
+import net.techibuzz.sound.ModSounds;
 
 
 public class ModBlocks {
@@ -54,7 +56,8 @@ public class ModBlocks {
 
     public static final Block PINK_GARNET_LAMP_BLOCK = registerBlock("pink_garnet_lamp_block",
                 new PinkGarnetLampBlock(FabricBlockSettings.create().mapColor(MapColor.RAW_IRON_PINK).instrument(Instrument.BASEDRUM)
-                        .strength(4f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
+                        .strength(4f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)
+                        .sounds(ModSounds.PINK_GARNET_LAMP_SOUNDS)));
 
     public static final Block WEATHER_BLOCK = registerBlock("weather_block",
             new WeatherBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD).nonOpaque()));
@@ -67,6 +70,10 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.BAD_OMEN, 4,FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block POTTED_PETUNIA = registerBlockWithoutItem("potted_petunia",
             new FlowerPotBlock(PETUNIA,FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+
+
+    public static final Block GEM_EMPOWERING_STATION = registerBlockWithoutItem("gem_empowering_station",
+            new GemEmpoweringStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static Block registerBlockWithoutItem(String name, Block block) {

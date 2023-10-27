@@ -1,0 +1,46 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.tekibas.metal_detector_found_ore",
+    "sounds": [
+      "tekibas:metal_detector_found_ore"
+    ]
+  },
+  "pink_garnet_lamp_break": {
+    "subtitle": "tekibas.pink_garnet_lamp_break",
+    "sounds": [
+      "tekibas:pink_garnet_lamp_break"
+    ]
+  },
+  "pink_garnet_lamp_step": {
+    "subtitle": "tekibas.pink_garnet_lamp_step",
+    "sounds": [
+      "tekibas:pink_garnet_lamp_step"
+    ]
+  },
+  "pink_garnet_lamp_place": {
+    "subtitle": "tekibas.pink_garnet_lamp_place",
+    "sounds": [
+      "tekibas:pink_garnet_lamp_place"
+    ]
+  },
+  "pink_garnet_lamp_hit": {
+    "subtitle": "tekibas.pink_garnet_lamp_hit",
+    "sounds": [
+      "tekibas:pink_garnet_lamp_hit"
+    ]
+  },
+  "pink_garnet_lamp_fall": {
+    "subtitle": "tekibas.pink_garnet_lamp_fall",
+    "sounds": [
+      "tekibas:pink_garnet_lamp_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "tekibas:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

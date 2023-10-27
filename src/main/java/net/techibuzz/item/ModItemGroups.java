@@ -58,6 +58,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_LAMP_BLOCK);
 
                         entries.add(ModBlocks.PETUNIA);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+                        entries.add(ModBlocks.GEM_EMPOWERING_STATION);
                     })
                     .build());
 

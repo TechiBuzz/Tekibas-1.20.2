@@ -1,4 +1,4 @@
-// 1.20.2	2023-10-27T01:08:08.3101261	Tekibas/Block Loot Tables
+// 1.20.2	2023-10-27T19:42:15.2465976	Tekibas/Block Loot Tables
 45914a2b1d999aaa708101be4cc78e552179aef4 data\tekibas\loot_tables\blocks\pink_garnet_button.json
 52137a967a92dcdb6760ded9a794bd58355b439f data\tekibas\loot_tables\blocks\pink_garnet_slab.json
 a7ebbc8dbdc551fc32b29a15dfc524c80957d400 data\tekibas\loot_tables\blocks\pink_garnet_fence.json
@@ -14,6 +14,8 @@ a5c44321252506ade7b771cef6c4bbf36ca96c4a data\tekibas\loot_tables\blocks\raw_pin
 0187ed1e11d4850a677d8599f6305eddeb52da23 data\tekibas\loot_tables\blocks\pink_garnet_pressure_plate.json
 c8d0cba7c71566911eeefe55d2c6ed4b1b777d09 data\tekibas\loot_tables\blocks\end_stone_pink_garnet_ore.json
 ad6f0d9f95ced65569ecb773e53770ac58187b18 data\tekibas\loot_tables\blocks\cauliflower_crop.json
+50008e49769a026fecfc447079e482bfff633c6e data\tekibas\loot_tables\blocks\petunia.json
 8c0740254d0ba07006aa352a9cc29be808d8ccee data\tekibas\loot_tables\blocks\weather_block.json
 7130426cb8d4b58c83feec619df9462d101f7ec5 data\tekibas\loot_tables\blocks\pink_garnet_door.json
 dde81bc6b6801a6fd69f428b2aae8b7038d7c496 data\tekibas\loot_tables\blocks\pink_garnet_stairs.json
+70ac08065e0a69cea7a71429b1f1f8380e0f7e5b data\tekibas\loot_tables\blocks\potted_petunia.json

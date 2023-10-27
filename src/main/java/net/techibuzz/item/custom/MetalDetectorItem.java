@@ -10,12 +10,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.techibuzz.item.ModItems;
+import net.techibuzz.sound.ModSounds;
 import net.techibuzz.util.InventoryUtil;
 import net.techibuzz.util.ModTags;
 import org.jetbrains.annotations.Nullable;
@@ -44,6 +46,8 @@ public class MetalDetectorItem extends Item {
                     if (InventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_TABLET)) {
                         addNbtDataToDataTablet(player, positionClicked.down(i), blockState.getBlock());
                     }
+
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAl_DETECTOR_FOUND_ORE, SoundCategory.BLOCKS);
 
                     break; // Remove if you want all possible ores
                 }

@@ -33,6 +33,9 @@
 
   "item.tekibas.cmiuc": "Catch Me If You Can",
 
+  "item.tekibas.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tekibas.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CCO)",
+
   "itemGroup.pink_garnet_group": "Pink Garnet",
   "itemGroup.other_things_group": "Other Things",
   "itemGroup.food_and_related": "Food and Related",
@@ -60,5 +63,7 @@
 
   "block.tekibas.petunia": "Petunia",
 
-  "enchantment.tekibas.lightning_striker": "Lightning Striker"
+  "enchantment.tekibas.lightning_striker": "Lightning Striker",
+
+  "sounds.metal_detector_found_ore": "Metal Detector Found An Ore!"
 }

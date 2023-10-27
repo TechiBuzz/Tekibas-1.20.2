@@ -11,6 +11,7 @@ import net.minecraft.util.Rarity;
 import net.techibuzz.Tekibas;
 import net.techibuzz.block.ModBlocks;
 import net.techibuzz.item.custom.*;
+import net.techibuzz.sound.ModSounds;
 
 public class ModItems {
 
@@ -62,6 +63,9 @@ public class ModItems {
 
     public static final Item CAULIFLOWER_SEEDS = regiserItem("cauliflower_seeds",
             new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new FabricItemSettings()));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = regiserItem("bar_brawl_music_disc",
+            new MusicDiscItem(14, ModSounds.BAR_BRAWL_MUSIC_DISC, new FabricItemSettings().maxCount(1), 11));
 
     private static Item regiserItem(String name, Item item) {
         return  Registry.register(Registries.ITEM, new Identifier(Tekibas.MOD_ID, name), item);
