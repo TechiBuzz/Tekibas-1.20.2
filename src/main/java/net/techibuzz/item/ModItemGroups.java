@@ -56,6 +56,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
 
                         entries.add(ModBlocks.PINK_GARNET_LAMP_BLOCK);
+
+                        entries.add(ModBlocks.PETUNIA);
                     })
                     .build());
 
@@ -69,10 +71,23 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CATCH_ME_IF_YOU_CAN);
 
-                        entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.PEAT_BRICK);
 
                         entries.add(ModItems.WEATHER_TABLET);
+                        entries.add(ModBlocks.WEATHER_BLOCK);
+
+                    })
+                    .build());
+
+    public static final ItemGroup FOOD_AND_RELATED = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Tekibas.MOD_ID, "food_and_related"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemGroup.food_and_related"))
+                    .icon(() -> new ItemStack(ModItems.CAULIFLOWER))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
 
                     })
                     .build());

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "weather_setting=1": {
+      "model": "tekibas:block/weather_block"
+    },
+    "weather_setting=2": {
+      "model": "tekibas:block/weather_block_rainy"
+    },
+    "weather_setting=3": {
+      "model": "tekibas:block/weather_block_thundering"
+    }
+  }
+}

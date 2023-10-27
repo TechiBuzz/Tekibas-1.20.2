@@ -3,6 +3,7 @@
   "item.tekibas.raw_pink_garnet": "Raw Pink Garnet",
 
   "item.tekibas.cauliflower": "Cauliflower",
+  "item.tekibas.cauliflower_seeds": "Cauliflower Seeds",
   "item.tekibas.peat_brick": "Peat Brick",
 
   "item.tekibas.pink_garnet_sword": "Pink Garnet Sword",
@@ -34,6 +35,7 @@
 
   "itemGroup.pink_garnet_group": "Pink Garnet",
   "itemGroup.other_things_group": "Other Things",
+  "itemGroup.food_and_related": "Food and Related",
 
   "block.tekibas.pink_garnet_block": "Block of Pink Garnet",
   "block.tekibas.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -54,6 +56,9 @@
   "block.tekibas.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
   "block.tekibas.pink_garnet_lamp_block": "Pink Garnet Lamp Block",
+  "block.tekibas.weather_block": "Weather Block",
+
+  "block.tekibas.petunia": "Petunia",
 
   "enchantment.tekibas.lightning_striker": "Lightning Striker"
 }

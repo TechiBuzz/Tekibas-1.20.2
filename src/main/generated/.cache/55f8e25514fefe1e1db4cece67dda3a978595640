@@ -1,12 +1,16 @@
-// 1.20.2	2023-10-24T23:09:38.3599934	Tekibas/Tags for minecraft:block
-27845bef7a8c1804d1719e0b3936a3c7f26686d9 data\minecraft\tags\blocks\needs_stone_tool.json
+// 1.20.2	2023-10-27T01:08:08.3046093	Tekibas/Tags for minecraft:block
 673c3da7fe0c3a15a9b84d0f19798fc98f9714c5 data\fabric\tags\blocks\needs_tool_level_5.json
+55913dfb68778cdae6f9db8a1ba87e67e98ce159 data\minecraft\tags\blocks\flower_pots.json
 84a01e6f5ff5ba95b5d8113ddc9ba087c9e8b6b4 data\minecraft\tags\blocks\mineable\pickaxe.json
+d0a5edcedf900bfcfd42487a3a6913361d5fae65 data\fabric\tags\blocks\needs_tool_level_4.json
+d080144e0398e14a9e063d1633ee9608f06f3e26 data\minecraft\tags\blocks\needs_diamond_tool.json
+f3c96e7e4d0fc861a6429687e40b997126c3da5d data\minecraft\tags\blocks\fence_gates.json
+cb180db7f9df481b31695041b8e7f0baa5ca8ae1 data\minecraft\tags\blocks\needs_stone_tool.json
+1aef3844a1680496df33a70f85f4a98e468dc10f data\minecraft\tags\blocks\small_flowers.json
 bf0098423b4dc3ca087286e033c7b775c72b0dbe data\tekibas\tags\blocks\metal_detector_detectable_blocks.json
 51f1f9535585357b3777f1e2fb59080597dd1d96 data\minecraft\tags\blocks\needs_iron_tool.json
 8b54b4eab13c31ed00132bffec5cf19c0805c6ba data\tekibas\tags\blocks\mineable\paxel.json
 ce3975d598bdd7427d02b14d7cdfe9628c72bc7c data\minecraft\tags\blocks\fences.json
-d0a5edcedf900bfcfd42487a3a6913361d5fae65 data\fabric\tags\blocks\needs_tool_level_4.json
-d080144e0398e14a9e063d1633ee9608f06f3e26 data\minecraft\tags\blocks\needs_diamond_tool.json
+1aef3844a1680496df33a70f85f4a98e468dc10f data\minecraft\tags\blocks\flowers.json
 00c7ccadfd64fefff3403bfc629df7107226c14b data\minecraft\tags\blocks\walls.json
-f3c96e7e4d0fc861a6429687e40b997126c3da5d data\minecraft\tags\blocks\fence_gates.json
+8b72d0ec368a5b84bc11d4fcd86c2563d4175b7f data\minecraft\tags\blocks\mineable\axe.json

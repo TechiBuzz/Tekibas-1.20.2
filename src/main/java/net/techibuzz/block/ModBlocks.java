@@ -4,13 +4,17 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.techibuzz.Tekibas;
+import net.techibuzz.block.custom.CauliflowerCropBlock;
 import net.techibuzz.block.custom.PinkGarnetLampBlock;
+import net.techibuzz.block.custom.WeatherBlock;
 
 
 public class ModBlocks {
@@ -51,6 +55,23 @@ public class ModBlocks {
     public static final Block PINK_GARNET_LAMP_BLOCK = registerBlock("pink_garnet_lamp_block",
                 new PinkGarnetLampBlock(FabricBlockSettings.create().mapColor(MapColor.RAW_IRON_PINK).instrument(Instrument.BASEDRUM)
                         .strength(4f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final Block WEATHER_BLOCK = registerBlock("weather_block",
+            new WeatherBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD).nonOpaque()));
+
+
+    public static final Block CAULIFLOWER_CROP = registerBlockWithoutItem("cauliflower_crop",
+            new CauliflowerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block PETUNIA = registerBlock("petunia",
+            new FlowerBlock(StatusEffects.BAD_OMEN, 4,FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+    public static final Block POTTED_PETUNIA = registerBlockWithoutItem("potted_petunia",
+            new FlowerPotBlock(PETUNIA,FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+
+
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(Tekibas.MOD_ID, name),block);
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

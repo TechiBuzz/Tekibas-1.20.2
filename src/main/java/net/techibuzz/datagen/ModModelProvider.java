@@ -10,6 +10,7 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.Arm;
 import net.minecraft.util.Identifier;
 import net.techibuzz.block.ModBlocks;
+import net.techibuzz.block.custom.CauliflowerCropBlock;
 import net.techibuzz.block.custom.PinkGarnetLampBlock;
 import net.techibuzz.item.ModItems;
 
@@ -40,6 +41,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
 
         registerCustomLamp(blockStateModelGenerator);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PETUNIA, ModBlocks.POTTED_PETUNIA, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     private void registerCustomLamp(BlockStateModelGenerator blockStateModelGenerator) {
@@ -72,7 +77,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_BOOTS);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
-//       //itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
     }
 
 }

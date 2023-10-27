@@ -60,6 +60,9 @@ public class ModItems {
     public static final Item WEATHER_TABLET = regiserItem("weather_tablet",
             new WeatherTabletItem(new FabricItemSettings().maxCount(1)));
 
+    public static final Item CAULIFLOWER_SEEDS = regiserItem("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new FabricItemSettings()));
+
     private static Item regiserItem(String name, Item item) {
         return  Registry.register(Registries.ITEM, new Identifier(Tekibas.MOD_ID, name), item);
     }

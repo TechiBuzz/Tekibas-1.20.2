@@ -7,13 +7,16 @@ import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.techibuzz.block.ModBlocks;
+import net.techibuzz.block.custom.CauliflowerCropBlock;
 import net.techibuzz.item.ModItems;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -42,6 +45,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_GARNET_WALL);
         addDrop(ModBlocks.PINK_GARNET_DOOR, doorDrops(ModBlocks.PINK_GARNET_DOOR));
         addDrop(ModBlocks.PINK_GARNET_TRAPDOOR);
+
+        addDrop(ModBlocks.PINK_GARNET_LAMP_BLOCK);
+        addDrop(ModBlocks.WEATHER_BLOCK);
+
+        addDrop(ModBlocks.CAULIFLOWER_CROP, this.cropDrops(ModBlocks.CAULIFLOWER_CROP, ModItems.CAULIFLOWER, ModItems.CAULIFLOWER_SEEDS, cauliflowerDrop()));
+
+        addDrop(ModBlocks.PETUNIA);
+        addPottedPlantDrops(ModBlocks.POTTED_PETUNIA);
+    }
+
+    private BlockStatePropertyLootCondition.Builder cauliflowerDrop() {
+        return BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWER_CROP).properties(StatePredicate.Builder.create().exactMatch(CauliflowerCropBlock.AGE, 6));
     }
 
     private LootTable.Builder pinkGarnetOreDrops(Block drop, Item item) {

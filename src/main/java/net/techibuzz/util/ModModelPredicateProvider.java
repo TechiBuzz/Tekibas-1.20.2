@@ -10,9 +10,17 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(ModItems.DATA_TABLET, new Identifier(Tekibas.MOD_ID, "on"),
                 (stack, world, entity, seed) -> stack.hasNbt() ? 1f : 0f);
 
-        ModelPredicateProviderRegistry.register(ModItems.WEATHER_TABLET, new Identifier(Tekibas.MOD_ID, "rainy"),
-                (stack, world, entity, seed) -> (stack.getNbt().getInt("tekibas.weather_tablet.weather") == 2) ? 1f : 0f);
-        ModelPredicateProviderRegistry.register(ModItems.WEATHER_TABLET, new Identifier(Tekibas.MOD_ID, "thunder"),
-                (stack, world, entity, seed) -> (stack.getNbt().getInt("tekibas.weather_tablet.weather") == 3) ? 1f : 0f);
+        ModelPredicateProviderRegistry.register(ModItems.WEATHER_TABLET, new Identifier(Tekibas.MOD_ID, "rainy"), (stack, world, entity, seed) -> {
+                    if (stack.hasNbt()) {
+                        return stack.getNbt().getInt("tekibas.weather_tablet.weather") == 1 ? 1f : 0f;
+                    }
+                    return 0;
+                });
+        ModelPredicateProviderRegistry.register(ModItems.WEATHER_TABLET, new Identifier(Tekibas.MOD_ID, "thunder"), (stack, world, entity, seed) -> {
+                    if (stack.hasNbt()) {
+                        return stack.getNbt().getInt("tekibas.weather_tablet.weather") == 2 ? 1f : 0f;
+                    }
+                    return 0;
+                });
     }
 }

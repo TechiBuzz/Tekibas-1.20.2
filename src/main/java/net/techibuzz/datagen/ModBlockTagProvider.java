@@ -43,6 +43,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_DOOR)                // # Stone Pickaxe
                 .add(ModBlocks.PINK_GARNET_TRAPDOOR);           // # Stone Pickaxe
 
+        // AXE
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.WEATHER_BLOCK);
+
         // TIER - STONE
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK)
@@ -58,7 +62,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_WALL)
 
                 .add(ModBlocks.PINK_GARNET_DOOR)
-                .add(ModBlocks.PINK_GARNET_TRAPDOOR);
+                .add(ModBlocks.PINK_GARNET_TRAPDOOR)
+
+                .add(ModBlocks.WEATHER_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.FLOWERS)
+                .add(ModBlocks.PETUNIA);
+        getOrCreateTagBuilder(BlockTags.FLOWER_POTS)
+                .add(ModBlocks.POTTED_PETUNIA);
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.PETUNIA);
 
         // TIER - IRON
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
